@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "stp_print.h"
+#include "../include/stp_print.h"
 
 #define update_ctx(ctx, bytes)    { \
     ctx->buf      += bytes;         \

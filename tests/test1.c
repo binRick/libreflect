@@ -58,6 +58,8 @@ void demo1(){
   acc1->age = 30;
 
   print_data(acc1, 1);
+  print_data(acc1, 2);
+  print_data(acc1, 3);
 
   int   num_acc1     = account_t_get_num_fields();
   field *acc1_fields = account_t_get_fields();
